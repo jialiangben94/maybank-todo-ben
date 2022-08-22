@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:maybank_todo/model/database/database_controller.dart';
 import 'package:maybank_todo/ui/home/home_page.dart';
 
 void main() {

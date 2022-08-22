@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:get/get.dart';
 import 'package:maybank_todo/model/database/database_controller.dart';
 import 'package:maybank_todo/model/to_do_model.dart';

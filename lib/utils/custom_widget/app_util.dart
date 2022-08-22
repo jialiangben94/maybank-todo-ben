@@ -25,13 +25,13 @@ void showSnackBar(String title, String message) {
 
 Future<bool?> showConfirmation(String title, String message) {
   Widget cancelButton = TextButton(
-    child: Text("Cancel"),
+    child: const Text("Cancel"),
     onPressed: () {
       Get.back(result: false);
     },
   );
   Widget continueButton = TextButton(
-    child: Text("Ok"),
+    child: const Text("Ok"),
     onPressed: () {
       Get.back(result: true);
     },

@@ -1,7 +1,4 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:maybank_todo/model/to_do_model.dart';
 import 'package:maybank_todo/ui/to_do_detail/to_do_detail_controller.dart';
@@ -126,7 +123,7 @@ class ToDoDetailPage extends GetView {
   InputDecoration _formFieldDecoration(String hint, bool isDropdown) {
     return InputDecoration(
       isCollapsed: true,
-      contentPadding: EdgeInsets.all(10),
+      contentPadding: const EdgeInsets.all(10),
       hintText: hint,
       hintStyle: const TextStyle(color: AppColor.themeLightrey),
       suffixIcon: isDropdown
